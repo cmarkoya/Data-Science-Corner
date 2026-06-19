@@ -47,7 +47,7 @@ git merge <branch-name>
 git branch -d <branch-name>  
 ●	Deletes a branch.
 
-##5. Viewing History
+## 5. Viewing History
 
 git log  
 ●	Displays commit history.
@@ -58,7 +58,7 @@ git log --oneline
 git log --graph --decorate  
 ●	Visualizes the commit history with a graph.
 
-##6. Undoing Changes
+## 6. Undoing Changes
 
 git reset <file>  
 
@@ -68,7 +68,7 @@ git reset --hard <commit-hash>
 git revert <commit-hash>  
 ●	Reverts changes made by a specific commit.
 
-##7. Synchronizing with Remote
+## 7. Synchronizing with Remote
 
 git fetch  
 ●	Downloads changes from the remote but does not apply them.
@@ -79,12 +79,12 @@ git pull
 git push origin <branch-name>  
 ●	Pushes changes to the specified branch on the remote.
 
-##8. Ignoring Files
+## 8. Ignoring Files
 
 touch .gitignore  
 ●	Creates a .gitignore file to specify files Git should ignore.
 
-##9. Miscellaneous Commands
+## 9. Miscellaneous Commands
 
 git status  
 ●	Shows the status of changes in the working directory.
@@ -92,15 +92,21 @@ git status
 git diff  
 ●	Displays differences between the working directory and the index.
 
-##Common Git Parameters
+## Common Git Parameters
 
 Command	Parameter	Description
+
 git commit	-m "message"	**Adds a commit message directly in the command.**
+
 git log	--oneline	**Displays one commit per line.**
+
 git log	--graph	**Shows a graphical representation of branches.**
+
 git push	-u origin <branch>	**Sets the upstream branch for future pushes.**
+
 git reset	--hard	**Resets the working directory and index to a commit.**
+
 git checkout	-b <branch>	**Creates and switches to a new branch.**
 
 
-<img width="468" height="640" alt="image" src="https://github.com/user-attachments/assets/a6201953-9501-4238-bfec-8e5b6a546b60" />
+
