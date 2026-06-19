@@ -96,17 +96,23 @@ git diff
 
 Command	Parameter	Description
 
-git commit	-m "message"	**Adds a commit message directly in the command.**
+git commit	-m "message"	
+**Adds a commit message directly in the command.**
 
-git log	--oneline	**Displays one commit per line.**
+git log	--oneline	
+**Displays one commit per line.**
 
-git log	--graph	**Shows a graphical representation of branches.**
+git log	--graph	
+**Shows a graphical representation of branches.**
 
-git push	-u origin <branch>	**Sets the upstream branch for future pushes.**
+git push	-u origin <branch>	
+**Sets the upstream branch for future pushes.**
 
-git reset	--hard	**Resets the working directory and index to a commit.**
+git reset	--hard	
+**Resets the working directory and index to a commit.**
 
-git checkout	-b <branch>	**Creates and switches to a new branch.**
+git checkout	-b <branch>	
+**Creates and switches to a new branch.**
 
 
 
