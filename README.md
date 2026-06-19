@@ -1,13 +1,17 @@
 # Git Commands and Parameters
 ##1. Setup and Configuration
+
 git config --global user.name "Your Name"  
+
 git config --global user.email "youremail@example.com"  
 ●	Sets your name and email for commits.
 git config --list  
 ●	Lists all configured settings.
 ##2. Repository Management
+
 git clone <repo-url>  
 ●	Clones an existing repository to your local machine.
+
 ##3. Staging and Committing Changes
 git add <file>  
 git add .  
